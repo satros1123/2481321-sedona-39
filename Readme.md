@@ -2,7 +2,7 @@
 
 * Студент: [Сергей Ковалев](https://up.htmlacademy.ru/htmlcss/39/user/2481321).
 * Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
-
+* Сайт: [Сайт]([https://htmlacademy.ru/profile/id198751](https://satros1123.github.io/2481321-sedona-39).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
