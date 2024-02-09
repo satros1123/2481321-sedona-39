@@ -54,19 +54,19 @@
           <ul>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="checkbox" name="have-pool">
                 Бассейн
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="checkbox" name="have-parking">
                 Парковка
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="checkbox" name="have-web">
                 Wi-Fi
               </label>
             </li>
@@ -77,19 +77,19 @@
           <ul>
             <li>
               <label class="control">
-                <input class="control-input" type="radio">
+                <input class="control-input" type="radio" name="type-home">
                 Гостиница
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="radio">
+                <input class="control-input" type="radio" name="type-home">
                 Мотель
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="radio">
+                <input class="control-input" type="radio" name="type-home">
                 Апартаменты
               </label>
             </li>
@@ -106,10 +106,15 @@
       <div class="catalog-sorting">
         <h2 class="visually-hidden">Найденные гостиницы</h2>
         <span class="catalog-text">Найдено гостиниц: 38</span>
+        <select aria-label="Сортировка">
+          <option value="">Сначала дешевые</option>
+          <option value="">Сначала дорогие</option>
+          <option value="">Сначала самые рейтинговые</option>
+        </select>
         <ul>
-          <li><button><span class="visually-hidden">Сеткой</span></button></li>
-          <li><button><span class="visually-hidden">Подробно</span></button></li>
-          <li><button><span class="visually-hidden">Спиской</span></button></li>
+          <li><a class="btn"><span class="visually-hidden">Сеткой</span></a></li>
+          <li><a class="btn"><span class="visually-hidden">Подробно</span></a></li>
+          <li><a class="btn"><span class="visually-hidden">Спиской</span></a></li>
         </ul>
       </div>
       <div class="catalog-main">
