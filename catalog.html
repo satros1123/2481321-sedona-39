@@ -77,19 +77,19 @@
           <ul>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="radio">
                 Гостиница
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="radio">
                 Мотель
               </label>
             </li>
             <li>
               <label class="control">
-                <input class="control-input" type="checkbox">
+                <input class="control-input" type="radio">
                 Апартаменты
               </label>
             </li>
@@ -102,6 +102,58 @@
         <button class="button" type="submit">Сбросить</button>
       </form>
     </header>
+    <section class="catalog">
+      <div class="catalog-sorting">
+        <h2 class="visually-hidden">Найденные гостиницы</h2>
+        <span class="catalog-text">Найдено гостиниц: 38</span>
+        <ul>
+          <li><button><span class="visually-hidden">Сеткой</span></button></li>
+          <li><button><span class="visually-hidden">Подробно</span></button></li>
+          <li><button><span class="visually-hidden">Спиской</span></button></li>
+        </ul>
+      </div>
+      <div class="catalog-main">
+        <div class="card">
+          <div>
+            <img src="" alt="Карточка гостиницы" class="card-image">
+          </div>
+          <div class="card-desc">
+            <p>Гостиница <span>От 4000 ₽</span></p>
+            <p>
+              <a href="#">Подробнее</a>
+              <button>В избранное</button>
+            </p>
+            <div class="card-rating">
+              <ul class="card-rating-stars">
+                <li class="card-rating-star">
+                  <span class="visually-hidden">Звезда</span>
+                </li>
+                <li class="card-rating-star">
+                  <span class="visually-hidden">Звезда</span>
+                </li>
+                <li class="card-rating-star">
+                  <span class="visually-hidden">Звезда</span>
+                </li>
+                <li class="card-rating-star">
+                  <span class="visually-hidden">Звезда</span>
+                </li>
+              </ul>
+              <span class="card-rating-text">Рейтинг: 8,5</span>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <ol class="pagination-list">
+            <li class="pagination-item"><button class="btn" type="button">1</button></li>
+            <li class="pagination-item"><button class="btn" type="button">1</button></li>
+            <li class="pagination-item"><button class="btn" type="button">1</button></li>
+            <li class="pagination-item"><button class="btn" type="button">1</button></li>
+            <li class="pagination-item">...</li>
+            <li class="pagination-item" value="10"><button class="btn" type="button">10</button></li>
+          </ol>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <article>
