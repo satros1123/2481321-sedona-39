@@ -112,49 +112,95 @@
           <option value="">Сначала самые рейтинговые</option>
         </select>
         <ul>
-          <li><a class="btn"><span class="visually-hidden">Сеткой</span></a></li>
-          <li><a class="btn"><span class="visually-hidden">Подробно</span></a></li>
-          <li><a class="btn"><span class="visually-hidden">Спиской</span></a></li>
+          <li><a class="btn" href="#"><span class="visually-hidden">Сеткой</span></a></li>
+          <li><a class="btn" href="#"><span class="visually-hidden">Подробно</span></a></li>
+          <li><a class="btn" href="#"><span class="visually-hidden">Спиской</span></a></li>
         </ul>
       </div>
       <div class="catalog-main">
-        <div class="card">
-          <div>
-            <img src="" alt="Карточка гостиницы" class="card-image">
-          </div>
-          <div class="card-desc">
-            <p>Гостиница <span>От 4000 ₽</span></p>
-            <p>
-              <a href="#">Подробнее</a>
-              <button>В избранное</button>
+        <!-- Выдача карточек с гостиницами-->
+        <ul class="product-list">
+          <li class="product-card">
+            <a href="#" class="product-card-link">
+              <img src="" alt="Вид на звездное небо между двумя скалами" class="product-card-image">
+              <h3 class="product-card-title">Amara Resort & Spa</h3>
+            </a>
+            <p class="product-card-item-type">Гостиница</p>
+            <b class="product-card-item-price">от 4000 Р</b>
+            <button class="product-card-btn" type="button">Подробнее</button>
+            <button class="product-card-btn" type="button">В избранное</button>
+            <p
+              class="product-card-stars product-card-stars-4"
+              role="img"
+              aria-label="4 звезды"
+            >
+              <span class="visibility-hidden">4 звезды</span>
             </p>
-            <div class="card-rating">
-              <ul class="card-rating-stars">
-                <li class="card-rating-star">
-                  <span class="visually-hidden">Звезда</span>
-                </li>
-                <li class="card-rating-star">
-                  <span class="visually-hidden">Звезда</span>
-                </li>
-                <li class="card-rating-star">
-                  <span class="visually-hidden">Звезда</span>
-                </li>
-                <li class="card-rating-star">
-                  <span class="visually-hidden">Звезда</span>
-                </li>
-              </ul>
-              <span class="card-rating-text">Рейтинг: 8,5</span>
-            </div>
-          </div>
-        </div>
+            <p class="product-card-raiting">Рейтинг 8,5</p>
+          </li>
+          <li class="product-card">
+            <a href="#" class="product-card-link">
+              <img src="" alt="Вид на пейзаж в городке Седона, штат Аризона" class="product-card-image">
+              <h3 class="product-card-title">Villas at Poco Diablo</h3>
+            </a>
+            <p class="product-card-item-type">Гостиница</p>
+            <b class="product-card-item-price">От 5000 ₽</b>
+            <button class="product-card-btn" type="button">Подробнее</button>
+            <button class="product-card-btn" type="button">В избранное</button>
+            <p
+              class="product-card-stars product-card-stars-4"
+              role="img"
+              aria-label="4 звезды"
+            >
+              <span class="visibility-hidden">4 звезды</span>
+            </p>
+            <p class="product-card-raiting">Рейтинг: 9,2</p>
+          </li>
+          <li class="product-card">
+            <a href="#" class="product-card-link">
+              <img src="" alt="Вид на горы" class="product-card-image">
+              <h3 class="product-card-title">Desert Quail Inn</h3>
+            </a>
+            <p class="product-card-item-type">Гостиница</p>
+            <b class="product-card-item-price">От 2500 ₽</b>
+            <button class="product-card-btn" type="button">Подробнее</button>
+            <button class="product-card-btn" type="button">В избранное</button>
+            <p
+              class="product-card-stars product-card-stars-3"
+              role="img"
+              aria-label="3 звезды"
+            >
+              <span class="visibility-hidden">3 звезды</span>
+            </p>
+            <p class="product-card-raiting">Рейтинг: 6,9</p>
+          </li>
+          <li class="product-card">
+            <a href="#" class="product-card-link">
+              <img src="" alt="Вид на карьер" class="product-card-image">
+              <h3 class="product-card-title">GreenTree Inn</h3>
+            </a>
+            <p class="product-card-item-type">Гостиница</p>
+            <b class="product-card-item-price">От 1500 ₽</b>
+            <button class="product-card-btn" type="button">Подробнее</button>
+            <button class="product-card-btn" type="button">В избранное</button>
+            <p
+              class="product-card-stars product-card-stars-2"
+              role="img"
+              aria-label="2 звезды"
+            >
+              <span class="visibility-hidden">2 звезды</span>
+            </p>
+            <p class="product-card-raiting">Рейтинг: 5,0</p>
+          </li>
+        </ul>
         <div class="pagination">
           <ol class="pagination-list">
-            <li class="pagination-item"><button class="btn" type="button">1</button></li>
-            <li class="pagination-item"><button class="btn" type="button">1</button></li>
-            <li class="pagination-item"><button class="btn" type="button">1</button></li>
-            <li class="pagination-item"><button class="btn" type="button">1</button></li>
+            <li class="pagination-item"><a class="btn" href="#">1</a></li>
+            <li class="pagination-item"><a class="btn" href="#">2</a></li>
+            <li class="pagination-item"><a class="btn" href="#">3</a></li>
+            <li class="pagination-item"><a class="btn" href="#">4</a></li>
             <li class="pagination-item">...</li>
-            <li class="pagination-item" value="10"><button class="btn" type="button">10</button></li>
+            <li class="pagination-item" value="10"><a class="btn" href="#">10</a></li>
           </ol>
         </div>
       </div>
