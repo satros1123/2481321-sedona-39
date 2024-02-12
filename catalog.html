@@ -7,19 +7,19 @@
 </head>
 <body>
   <header class="page-header">
+    <a class="logo" href="#">
+      <img src="" alt="Логотип сайта Седона" class="logo">
+    </a>
     <nav class="navigation main-menu">
-      <a href="index.html">
-        <img src="" alt="Логотип сайта Седона" class="logo">
-      </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a  class="navigation-link" href="index.html">Главная</a>
+          <a class="navigation-link navigation-link-active" href="#">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">О седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link navigation-link-active" href="#">Гостиницы</a>
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-list user-menu">
@@ -34,7 +34,9 @@
           </a>
         </li>
       </ul>
-      <button class="btn">Хочу сюда!</button>
+      <a class="navigation-link" href="#">
+        <span class="visually-hidden">Хочу сюда!</span>
+      </a>
     </nav>
   </header>
   <main>
@@ -104,8 +106,7 @@
     </header>
     <section class="catalog">
       <div class="catalog-sorting">
-        <h2 class="visually-hidden">Найденные гостиницы</h2>
-        <span class="catalog-text">Найдено гостиниц: 38</span>
+        <h2 class="catalog-text">Найдено гостиниц: 38</h2>
         <select aria-label="Сортировка">
           <option value="">Сначала дешевые</option>
           <option value="">Сначала дорогие</option>
@@ -125,8 +126,7 @@
               <img src="" alt="Вид на звездное небо между двумя скалами" class="product-card-image">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
-            <p class="product-card-item-type">Гостиница</p>
-            <b class="product-card-item-price">от 4000 Р</b>
+            <p class="product-card-item-type">Гостиница <b class="product-card-item-price">от 4000 Р</b></p>
             <button class="product-card-btn" type="button">Подробнее</button>
             <button class="product-card-btn" type="button">В избранное</button>
             <p
@@ -143,8 +143,7 @@
               <img src="" alt="Вид на пейзаж в городке Седона, штат Аризона" class="product-card-image">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
-            <p class="product-card-item-type">Гостиница</p>
-            <b class="product-card-item-price">От 5000 ₽</b>
+            <p class="product-card-item-type">Гостиница <b class="product-card-item-price">От 5000 ₽</b></p>
             <button class="product-card-btn" type="button">Подробнее</button>
             <button class="product-card-btn" type="button">В избранное</button>
             <p
@@ -161,8 +160,7 @@
               <img src="" alt="Вид на горы" class="product-card-image">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
-            <p class="product-card-item-type">Гостиница</p>
-            <b class="product-card-item-price">От 2500 ₽</b>
+            <p class="product-card-item-type">Гостиница <b class="product-card-item-price">От 2500 ₽</b></p>
             <button class="product-card-btn" type="button">Подробнее</button>
             <button class="product-card-btn" type="button">В избранное</button>
             <p
@@ -179,8 +177,7 @@
               <img src="" alt="Вид на карьер" class="product-card-image">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
-            <p class="product-card-item-type">Гостиница</p>
-            <b class="product-card-item-price">От 1500 ₽</b>
+            <p class="product-card-item-type">Гостиница <b class="product-card-item-price">От 1500 ₽</b></p>
             <button class="product-card-btn" type="button">Подробнее</button>
             <button class="product-card-btn" type="button">В избранное</button>
             <p
@@ -193,7 +190,6 @@
             <p class="product-card-raiting">Рейтинг: 5,0</p>
           </li>
         </ul>
-        <div class="pagination">
           <ol class="pagination-list">
             <li class="pagination-item"><a class="btn" href="#">1</a></li>
             <li class="pagination-item"><a class="btn" href="#">2</a></li>
@@ -202,14 +198,12 @@
             <li class="pagination-item">...</li>
             <li class="pagination-item" value="10"><a class="btn" href="#">10</a></li>
           </ol>
-        </div>
       </div>
     </section>
   </main>
   <footer>
     <article>
-      <h2 class="visually-hidden">Получайте новости и акции</h2>
-      <span>Подпишитесь на рассылку</span>
+      <h2>Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
         <p>
