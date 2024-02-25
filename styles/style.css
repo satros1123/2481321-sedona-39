@@ -1,3 +1,4 @@
+/* Объевление шрифтов */
 @font-face {
   font-family: "PT Sans";
   src: url(../fonts/ptsans-400.woff2) format("woff2");
@@ -28,4 +29,219 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
+}
+
+/* Глобальные стили */
+body {
+  font-family: "PT Sans";
+  font-size: 22px;
+  line-height: 26px;
+}
+/* Навигация nav */
+.navigation {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link span {
+  color: #fff;
+}
+
+
+/* section welcome-screen */
+.welcom-screen {
+  color: #fff;
+  background-color: #92c0db;
+  background-image: url(../images/welcome-bg.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+
+/* section advantage */
+.subtitle {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.advantage-list {
+  list-style: none;
+}
+.advantage-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 28px;
+  text-align: center;
+}
+
+.advantage-text {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.first-and-last {
+  color: #fff;
+}
+
+
+/* section servis  */
+.servis-list {
+  list-style: none;
+}
+
+.servis-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.servis-desc {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* section search */
+.search-slogan {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.search-text {
+  text-align: center;
+}
+
+.search-btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  background-color: #756157 ;
+}
+
+/* footer newsletter */
+.newsletter-slogan {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.newsletter-text {
+  text-align: center;
+}
+
+/* footer */
+
+.footer-phone {
+  color: #000;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+/* section catalog-header */
+
+.catalog-header {
+  color: #fff;
+  background-color: #92c0db;
+  background-image: url(../images/welcome-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px  );
+}
+.catalog-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* search form */
+.search-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+
+/* section catalog */
+
+.catalog-search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* card */
+
+.product-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.product-card-item-type {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-card-raiting {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Пагинация */
+.pagination-item a {
+  color: #fff;
+  background-color: #82B3D3;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
 }

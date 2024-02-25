@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -40,8 +41,8 @@
       </nav>
     </header>
     <main>
-      <header class="catalog-header">
-        <h1>Гостиницы Седоны</h1>
+      <section class="catalog-header">
+        <h1 class="catalog-title">Гостиницы Седоны</h1>
         <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
@@ -103,10 +104,10 @@
           <button class="button" type="submit">Применить</button>
           <button class="button" type="reset">Сбросить</button>
         </form>
-      </header>
+      </section>
       <section class="catalog">
         <div class="catalog-sorting">
-          <h2 class="catalog-text">Найдено гостиниц: 38</h2>
+          <h2 class="catalog-search-title">Найдено гостиниц: 38</h2>
           <select aria-label="Сортировка">
             <option value="">Сначала дешевые</option>
             <option value="">Сначала дорогие</option>
@@ -189,8 +190,8 @@
     </main>
     <footer>
       <article>
-        <h2>Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="newsletter-slogan">Подпишитесь на рассылку</h2>
+        <p class="newsletter-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
           <p>
             <label for="email">Почта</label>
