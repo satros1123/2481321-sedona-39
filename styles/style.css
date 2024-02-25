@@ -57,13 +57,18 @@ body {
   color: #fff;
 }
 
+.button-nav {
+  color: #fff;
+  background-color: #756157;
+}
+
 
 /* section welcome-screen */
 .welcom-screen {
   color: #fff;
   background-color: #92c0db;
   background-image: url(../images/welcome-bg.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
